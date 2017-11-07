@@ -1,0 +1,18 @@
+body{
+
+}
+li{
+  list-style: none;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.lang{
+  display: flex;
+  justify-content: center;
+}
+.lang li{
+  margin: 10px;
+  cursor: pointer;
+}
