@@ -1,13 +1,8 @@
 var React = require('react');
+var ReactDOM= require('react-dom');
 
-class Battle extends React.Component{
-  render(){
-    return(
-      <div>
-        Battle!
-      </div>
-    )
-  }
+function Battle(){
+  return <div>Battle!</div>
 }
 
 module.exports = Battle;
